@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Krona One", sans-serif;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: #22D4FD;
+}
+
+.content-about {
+    width: 550px;
+}
+
+.about-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.about-button {
+    width: 280px;
+    height: 79px;
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    background-color: #22D4FD;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
